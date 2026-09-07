@@ -10,6 +10,16 @@ Example:
 
 > MergePay connects GitHub pull requests with onchain bounty escrow. Contributors prove PR authorship through GitHub OAuth and receive payment after the sponsor approves the claim and the PR is merged.
 
+## Why MergePay?
+
+Open-source contributors often finish useful work before a reward is ready to be
+sent. MergePay keeps the reward in a Rialo escrow workflow, verifies the exact
+GitHub pull request author, and releases the bounty only after the sponsor has
+approved the contributor and Rialo confirms that the pull request was merged.
+
+This makes the payment terms visible before work starts while keeping the
+contributor's payout wallet separate from the sponsor's wallet.
+
 ## How to contribute
 
 1. Fork this repository.
