@@ -13,7 +13,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Validate payout fixture
+      - name: Validate repository fixtures
         run: |
           test -s Readme.md
           test -s AUTOMATIC_PAYOUT_TEST.md

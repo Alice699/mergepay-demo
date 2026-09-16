@@ -18,3 +18,8 @@ can be used as a new contributor E2E run without changing application code.
 Record the bounty link, workflow address, settlement signature, and final
 decoded state. This repository is a public DevNet fixture; never use production
 funds or private credentials.
+
+## CI policy check
+
+The pull request includes a passing GitHub Actions `CI check`. Use this exact
+commit when creating a MergePay bounty with `Require successful CI` enabled.
