@@ -3,6 +3,9 @@
 This pull request is a small, documentation-only fixture for verifying the
 successful MergePay settlement path on Rialo DevNet.
 
+This fresh fixture is intended for the current MergePay DevNet deployment and
+can be used as a new contributor E2E run without changing application code.
+
 ## Expected path
 
 1. Create a bounty for this exact pull request.
