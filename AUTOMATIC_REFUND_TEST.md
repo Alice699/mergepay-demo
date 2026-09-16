@@ -4,6 +4,9 @@ This pull request is a small, documentation-only fixture for verifying that a
 funded but unmerged bounty returns to the sponsor after its deadline on Rialo
 DevNet.
 
+This fresh fixture is intended for the current MergePay DevNet deployment and
+can be used as a new contributor E2E run without changing application code.
+
 ## Expected path
 
 1. Create a bounty for this exact pull request with a short future deadline.
