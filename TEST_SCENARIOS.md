@@ -25,3 +25,11 @@ a public DevNet sandbox.
 For both scenarios, record the bounty link, workflow address, transaction signatures,
 and final workflow state. Never use production credentials or real funds in this
 repository.
+
+## Scenario C: contributor claim review
+
+1. Open a fresh pull request with a focused documentation change.
+2. Create a bounty for the exact pull request and authenticate as its author.
+3. Request the contributor claim and verify the sponsor review state.
+4. Approve and fund the claim, then confirm that the contributor page advances
+   without a manual refresh.
